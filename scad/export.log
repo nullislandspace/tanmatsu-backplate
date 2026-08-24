@@ -1,0 +1,2 @@
+OK   camera_lens_hole_cut   -> backplate          tris=6824    solid=True  vol=  39347.2 bbox=120.0 x 135.0 x 17.5 mm
+OK   camera_mount           -> camera_mount       tris=896     solid=True  vol=    685.5 bbox=28.0 x 26.6 x 5.0 mm

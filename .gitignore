@@ -1,0 +1,13 @@
+.claude/
+__pycache__/
+
+# FreeCAD backups
+*.FCBak
+*.FCStd1
+
+# Generated meshes / exports -- rebuild with:
+#   freecadcmd ~/freecad-export/export_backplate.py   (scad/*.scad)
+#   OpenSCAD F6 + export                              (*.stl, *.3mf)
+*.stl
+*.3mf
+*.csg
