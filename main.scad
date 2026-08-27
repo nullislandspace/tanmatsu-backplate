@@ -22,6 +22,13 @@ show_camera_mount = true;
 
 $fn = 64;
 
+module irport(xoffs = 0, yoffs = 0, zoffs = 0) {
+    translate([xoffs, yoffs, zoffs]) {
+        cube([9, 20, 6.1]);
+    }
+
+}
+
 render(convexity = 10)
 difference() {
     union() {
@@ -35,6 +42,7 @@ difference() {
     // --- SUBTRACT material here ---
     // Overshoot past both surfaces so no zero-thickness faces remain.
     translate([-40, -28, -23]) {
-        cube([80, 30, 10]);
+        cube([80, 30, 10]);        
     }
+    irport((-33.8+11.2), 50, -7.6);
 }
